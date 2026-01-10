@@ -45,7 +45,8 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget \
     OPlusWifiResTarget \
     SettingsResAudi \
-    ApertureResAudi
+    ApertureResAudi \
+    UpdaterResAudi
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
