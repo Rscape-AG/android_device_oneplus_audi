@@ -52,6 +52,10 @@ PRODUCT_PACKAGES += \
     ApertureResAudi \
     UpdaterResAudi
 
+# Performance
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/perf/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
